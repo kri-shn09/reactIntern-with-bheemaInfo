@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+.header-main-con{
+   box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.3);
+}
+
+.menu-con{
+    width:30%;
+}
+
+.menu-con li:hover{
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.6);
+}
+
+.logo-box{
+    width:20%;
+}
+
+.enroll-btn{
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top:60%;
+  background-color: #A98761;
+}
+
+.bg-img{
+  position: relative;
+}
+
+.form{
+  position: absolute;
+  z-index: 1;
+  background-color: #A98761;
+  top:30%;
+  right:5%;
+}
+
+.card-main-con{
+  width:30%;
+  margin:1.5rem 0;
+  box-shadow: 0px 0px 8px 1px #ccc;
+}
+
+.btn-card{
+  background-color: #A98761;
+}
