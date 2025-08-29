@@ -2,12 +2,15 @@
  import { createContext } from "react";
  import { useState } from "react";
 
- const UserContext = createContext();
+export const UserContext = createContext();
 
- export const ProvideContext = ()=>{
+ export const ProvideContext = ({children})=>{
       const [userVal, setUserVal] = useState('');
 
-      const matchVal = ()=>{
-          
-      }
+      return(
+
+        <UserContext.Provider value={{userVal,setUserVal}} >
+         {children}
+        </ UserContext.Provider>
+      )
  }

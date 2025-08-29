@@ -4,10 +4,12 @@ import Cards from './Cards'
 import Footer from './Footer'
 import Home from './Home'
 import { NavLink } from 'react-router-dom'
-import { useState } from 'react'
+import { useContext, useState } from 'react'
+import { UserContext } from '../Context'
 
 function Header() {
  
+   const {setUserVal} = useContext(UserContext)
 
   return (
     <div
@@ -40,6 +42,7 @@ function Header() {
         </li>
 
         <input
+        onChange={(e)=> setUserVal(e.target.value)}
            className='bg-gray-300 p-2 rounded outline-0'
          type="search"  placeholder='Search' />
       </ul>
