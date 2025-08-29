@@ -1,0 +1,43 @@
+@import "tailwindcss"; 
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav-box{
+    box-shadow: 2px 0px 5px 1px rgba(0,0,0,0.4) ;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
+
+.nav-logo-con{
+    width:30%;
+}
+
+.nav-menu-con{
+    width:40%;
+}
+
+.home-main-con{
+  position: relative
+}
+
+.hero-banner-heading{
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+}
+
+.hero-button{
+    left:45%;
+}
+
+.card-con{
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.4);
+    padding:1rem;
+    border-radius: 0.5rem;
+}
+
+.card-con img{
+    border-radius: 0.5rem;
+}
