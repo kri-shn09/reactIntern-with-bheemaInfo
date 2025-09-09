@@ -11,6 +11,6 @@ export const UserContext = createContext();
 
         <UserContext.Provider value={{userVal,setUserVal}} >
          {children}
-        </ UserContext.Provider>
+        </UserContext.Provider>
       )
  }

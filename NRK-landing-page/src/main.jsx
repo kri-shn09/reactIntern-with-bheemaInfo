@@ -11,10 +11,7 @@ const routers = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />} >
      <Route path="" element={<Home />} />
-     <Route path="cards" element={<Cards 
-     title="Dream Homes" prices={{first :10000000 ,second : 5000000 , third:3000000}} 
-        location={{first:"California-pond", second:"Nehru Garden Indore",third:"Lakshmi Nagar"}}
-     />} />
+     <Route path="cards" element={<Cards  />} />
      <Route path="footer" element={<Footer />}  />
     </Route>
   )

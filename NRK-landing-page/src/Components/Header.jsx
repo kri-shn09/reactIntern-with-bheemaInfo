@@ -42,9 +42,9 @@ function Header() {
         </li>
 
         <input
-        onChange={(e)=> setUserVal(e.target.value)}
-           className='bg-gray-300 p-2 rounded outline-0'
-         type="search"  placeholder='Search' />
+        onChange={(e)=> setUserVal(e.target.value.trim())}
+           className='bg-gray-300 p-2 rounded outline-0 w-60'
+         type="search"  placeholder='Search by location & price' />
       </ul>
     </div>
   )

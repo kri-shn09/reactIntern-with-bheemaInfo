@@ -21,7 +21,7 @@ function Home() {
              </Link>
               </button>
        <img
-       className='w-full horo-banner'
+       className='w-full hero-banner'
         src={nrkbanner} alt="hero-banner-img" />
     </div> 
     </>
