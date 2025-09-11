@@ -1,0 +1,28 @@
+.main-con{
+    background-color: rgba(0,0,0,0.3);
+}
+
+h1{
+    color:#fff;
+    text-shadow: 1px 0px 1px white;
+}
+
+span{
+    
+   color:#2b80ff; 
+}
+
+input::placeholder{
+    color:white;
+    font-weight: 400;
+    font-size:0.8rem;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.s-link{
+    text-shadow: 1px 1px 1px #fff;
+    cursor: pointer;
+}
