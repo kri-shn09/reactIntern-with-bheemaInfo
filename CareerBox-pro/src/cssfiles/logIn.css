@@ -3,17 +3,12 @@
 }
 
 h1{
-    color:#fff;
+       color:#2b80ff; 
     text-shadow: 1px 0px 1px white;
 }
 
-span{
-    
-   color:#2b80ff; 
-}
-
 input::placeholder{
-    color:white;
+    color:gray;
     font-weight: 400;
     font-size:0.8rem;
 }
@@ -23,6 +18,14 @@ p{
 }
 
 .s-link{
-    text-shadow: 1px 1px 1px #fff;
     cursor: pointer;
+    color:#2b80ff;
+}
+
+.eye-icon{
+    cursor: pointer !important;
+}
+
+form{
+    box-shadow: 0px 0px 0.4rem 1px white;
 }

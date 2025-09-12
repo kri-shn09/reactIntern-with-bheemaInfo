@@ -3,26 +3,24 @@
 }
 
 h1{
-    color:#fff;
-    text-shadow: 4px 1px 4px rgba(0,0,0,0.5);
-}
-
-span{
-    color: #2B80FF;
-    text-shadow: none;
+    color:#2B80FF;
 }
 
 /* form{
     box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.3);
 } */
 
-input::placeholder{
-    color: white;
-    font-weight: 400;
-    font-size: 0.8rem;
+input{
+    padding-left:1.7rem;
 }
 
-button{
+input::placeholder{
+    color: gray;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+button{ 
     color: #fff;
 background-color: #344feb;
 font-size: 1.1rem;
@@ -30,4 +28,26 @@ cursor: pointer;
  text-shadow: 4px 1px 4px rgba(0,0,0,0.5);
 }
 
+.user-icon,.email-icon,.pass-icon{
+    font-size: 0.8rem;
+}
+
+.phone-icon{
+    font-size:15px;
+}
+
+form{
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+p{
+    font-size:0.8rem;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+span{
+    color:#2B80FF;
+    cursor: pointer;
+}
 
