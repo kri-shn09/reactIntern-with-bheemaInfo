@@ -9,11 +9,15 @@ h1{
 
 input::placeholder{
     color:gray;
-    font-weight: 400;
+    font-weight: 600;
     font-size:0.8rem;
 }
 
 p{
+    font-size: 0.8rem;
+}
+
+.email-icon{
     font-size: 0.8rem;
 }
 
@@ -28,4 +32,8 @@ p{
 
 form{
     box-shadow: 0px 0px 0.4rem 1px white;
+}
+
+.pass-icon{
+    font-size: 0.8rem;
 }

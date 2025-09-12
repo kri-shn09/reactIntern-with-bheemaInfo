@@ -1,8 +1,5 @@
 import '../App.css'
 import nrkbanner from './images/nrkbanner.jpeg'
-import Cards from './Cards'
-import Footer from './Footer'
-import Home from './Home'
 import { NavLink } from 'react-router-dom'
 import { useContext} from 'react'
 import { UserContext } from '../Context'
