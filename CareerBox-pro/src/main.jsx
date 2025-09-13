@@ -3,14 +3,18 @@ import { createRoot } from 'react-dom/client'
 import {createBrowserRouter,createRoutesFromElements, Route, RouterProvider} from 'react-router-dom';
 import './index.css'
 import App from './App.jsx'
-import SignupPage from './components/SignupPage.jsx';
+import SigninAccount from './components/SigninAccount.jsx'
 import LoginPage from './components/LoginPage.jsx';
+import CreateAccount from './components/CreateAccount.jsx';
+import SignupPage from './components/SignupPage.jsx';
 
 const routers = createBrowserRouter(
      createRoutesFromElements(
       <Route path="/" element={< App />}>
         <Route path="" element={<SignupPage />} />
+        <Route path="createAccount" element={<CreateAccount />} />
         <Route path="login" element={<LoginPage />} />
+        <Route path="signin" element={<SigninAccount />} />
       </Route>
      )
 )

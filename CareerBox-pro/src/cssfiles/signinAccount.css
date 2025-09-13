@@ -1,0 +1,58 @@
+.para{
+    font-size: 0.8rem;
+}
+
+.g-btn{
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.g-btn img{
+    width:20px;
+}
+
+.g-btn span{
+    color:gray;
+    text-shadow: none;
+    font-size: 0.8rem;
+}
+
+.fb-icon{
+  color: #2b80ff;
+  background-color: #fff;
+  text-shadow: none;
+}
+
+.btn-box{
+    width:85%;
+}
+
+.additional-text{
+    font-size: 0.8rem;
+    text-shadow: none;
+    color: gray;
+}
+
+.email-label{
+    font-size:0.8rem;
+    font-weight: 700;
+    color:gray;
+}
+
+.email-input::placeholder{
+  padding-left:5px;
+}
+
+.email-input{
+    box-shadow: 2px 2px 2px 0px #ccc;
+    width:100%;
+}
+
+.rem-span{
+    font-size:0.8rem;
+}
+
+.forgot-para{
+    font-size: 0.8rem;
+    color:#2b80ff;
+}
